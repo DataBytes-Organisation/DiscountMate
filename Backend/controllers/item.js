@@ -1,6 +1,5 @@
 const Item = require('../models/item'); //item model
-
-//gets all items, used in item model
+// This is a comment!
 exports.getAllItems = async (req, res, next) => {
     try {
         //try and get all items from the model in a json string
