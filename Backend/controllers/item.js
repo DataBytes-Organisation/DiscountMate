@@ -1,5 +1,5 @@
 const Item = require('../models/item'); //item model
-
+//this is a comment
 //gets all items, used in item model
 exports.getAllItems = async (req, res, next) => {
     try {
